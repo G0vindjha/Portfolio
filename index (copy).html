@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./output.css">
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+</style>
+
+</head>
+
+<body>
+  
+  <nav id="home"
+  class="relative flex w-full flex-wrap items-center justify-between bg-neutral-900 py-3 text-neutral-200 shadow-lg lg:flex-wrap lg:justify-start"
+  data-te-navbar-ref>
+  <div class="container-fluid flex w-full  justify-between px-6">
+    <div class="flex w-full flex-wrap items-center justify-between m-auto">
+      <button
+        class="block border-0 bg-transparent py-2 px-2.5 text-neutral-200 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 lg:hidden"
+        type="button"
+        data-te-collapse-init
+        data-te-target="#navbarSupportedContent4"
+        aria-controls="navbarSupportedContent4"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="[&>svg]:w-7">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="h-7 w-7">
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd" />
+          </svg>
+        </span>
+      </button>
+      <div
+        class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
+        id="navbarSupportedContent4"
+        data-te-collapse-item>
+        <!-- Left links -->
+        <ul
+          class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row"
+          data-te-navbar-nav-ref>
+          <li class="p-2" data-te-nav-item-ref>
+            <a
+              class="text-white disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#"
+              data-te-nav-link-ref
+              >Home</a
+            >
+          </li>
+          <li class="p-2" data-te-nav-item-ref>
+            <a
+              class="p-0 text-white opacity-60 hover:opacity-80 focus:opacity-80 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#education"
+              data-te-nav-link-ref
+              >Education</a
+            >
+          </li>
+          <li class="p-2" data-te-nav-item-ref>
+            <a
+              class="p-0 text-white opacity-60 hover:opacity-80 focus:opacity-80 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#programming"
+              data-te-nav-link-ref
+              >Programming Languages</a
+            >
+          </li>
+          <li class="p-2" data-te-nav-item-ref>
+            <a
+              class="p-0 text-white opacity-60 hover:opacity-80 focus:opacity-80 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#project"
+              data-te-nav-link-ref
+              >Projects</a
+            >
+          </li>
+          <li class="p-2" data-te-nav-item-ref>
+            <a
+              class="p-0 text-white opacity-60 hover:opacity-80 focus:opacity-80 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#internship"
+              data-te-nav-link-ref
+              >Internship</a
+            >
+          </li>
+          <li class="p-2" data-te-nav-item-ref>
+            <a
+              class="p-0 text-white opacity-60 hover:opacity-80 focus:opacity-80 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#hire"
+              data-te-nav-link-ref
+              >Hire Me</a
+            >
+          </li>
+  
+        </ul>
+      </div>
+    
+    </div>
+    <div class="items-center" style="min-width: max-content;">
+      <a class="text-xl font-semibold text-white" href="#">𝙶𝚘𝚟𝚒𝚗𝚍 𝙹𝚑𝚊</a>
+    </div>
+  </div>
+ 
+</nav>
+
+<div class="relative  mt-6">
+  <div class="mt-5 ">
+    <div
+      class="flex flex-col rounded-lg justify-around bg-white shadow-lg dark:bg-neutral-700 min-w-min md:flex-row md:h-screen">
+     <div class="flex justify-center my-5">
+      <img
+      class="min-w-full rounded-t-lg object-cover md:h-auto md:w-64 md:rounded-none md:rounded-l-lg md:min-w-fit"
+      src="https://www.svgrepo.com/show/415154/avatar-boy-male-5.svg"
+      alt="" />
+     </div>
+      <div class="flex min-w-min flex-col justify-start p-6">
+        <h5
+          class="mb-2  text-center md:text-start font-bold text-neutral-800 dark:text-neutral-50" style="font-size:2.5rem;">
+          GOVIND JHA
+        </h5>
+        <h6
+          class="mb-2  text-center md:text-start font-bold text-neutral-800 dark:text-neutral-50" >
+          JUNIOR SOFTWARE DEVELOPER
+        </h6>
+        <p class="mb-4  text-base text-neutral-600 dark:text-neutral-200">
+         <div class="flex">
+          <svg width="64px" height="64px" viewBox="-13.68 -13.68 51.36 51.36" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(5.52,5.52), scale(0.54)"><rect x="-13.68" y="-13.68" width="51.36" height="51.36" rx="25.68" fill="#ffffff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:none;stroke:#020202;stroke-miterlimit:10;stroke-width:1.344;}</style></defs><rect class="cls-1" x="5.32" y="1.5" width="13.36" height="21" rx="1.91"></rect><line class="cls-1" x1="5.32" y1="18.68" x2="18.68" y2="18.68"></line><circle class="cls-1" cx="12" cy="8.18" r="1.91"></circle><path class="cls-1" d="M12,10.09h0A2.86,2.86,0,0,1,14.86,13v1a0,0,0,0,1,0,0H9.14a0,0,0,0,1,0,0V13A2.86,2.86,0,0,1,12,10.09Z"></path></g></svg>
+          <span style="margin-block: auto;">9106739843</span></div>
+         <div class="flex">
+          <svg width="64px" height="64px" viewBox="-17.28 -17.28 58.56 58.56" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(6.6,6.6), scale(0.45)"><rect x="-17.28" y="-17.28" width="58.56" height="58.56" rx="29.28" fill="#ffffff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#000000" stroke-width="1.176" stroke-linecap="round" stroke-linejoin="round"></path> <rect x="3" y="5" width="18" height="14" rx="2" stroke="#000000" stroke-width="1.176" stroke-linecap="round"></rect> </g></svg><span style="margin-block: auto;">jhag2491@gmail.com</span></div>
+         <div class="flex">
+          <svg fill="#000000" width="64px" height="64px" viewBox="-20.48 -20.48 72.96 72.96" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(7.84,7.84), scale(0.51)"><rect x="-20.48" y="-20.48" width="72.96" height="72.96" rx="36.48" fill="#ffffff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"></path><path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"></path></g></svg><span style="margin-block: auto;">goviindjha</span>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+<a href="#home" class="p-0 text-white opacity-60 hover:opacity-80 focus:opacity-80 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active:text-neutral-400" style="position: fixed;
+bottom: 37px;
+right: 14px;"
+  >
+  <svg width="64px" height="64px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#323232" stroke-width="2"></path> <path d="M12 8L12 16" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 11L12.087 8.08704V8.08704C12.039 8.03897 11.961 8.03897 11.913 8.08704V8.08704L9 11" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+  </a>
+<div class="mt-6 border-y-4 border-black" id="education">
+  <h5 class="mb-2  text-center font-bold text-neutral-800 dark:text-neutral-50" style="font-size:2.5rem;">
+         EDUCATIONAL DETAIL
+        </h5>
+  <div class="grid justify-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+    <div class="flex justify-center my-5 hover:scale-110  min-w-full">
+      <div
+        class="block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700  min-w-full">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+          SSC
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          S.V Patel Eng. School, Vapi
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          03/2014 - 04/2017
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          GSEB - 82.68%
+        </p>
+      </div>
+    </div>
+   
+    <div class="flex justify-center  my-5 hover:scale-110  min-w-full">
+      <div
+        class="block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 min-w-full">
+        <h5
+          class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+          HSC
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          S.V Daman Eng. School
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          05/2017 - 03/2019
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          GSHEB - 75.30%
+        </p>
+      </div>
+    </div>
+    <div class="flex justify-center my-5 hover:scale-110  min-w-full">
+      <div
+        class=" rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700  min-w-full">
+        <h5
+          class="mb-2 text-xl font-medium  text-neutral-800 dark:text-neutral-50">
+         B.TECH
+        </h5>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+         Parul Institute Of Engineering & Technology
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          06/2019 - Present
+        </p>
+        <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+          CSE - 8.1 CGPA
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="mt-6 border-y-4 border-black" id="programming">
+    <h5 class="mb-2  text-center font-bold text-neutral-800 dark:text-neutral-50" style="font-size:2.5rem;">
+      PROGRAMMING LANGUAGES
+     </h5>
+     <div  class="grid  grid-cols-1 sm:grid-cols-2 space-x-8">
+      <div class="flex justify-center min-w-full">
+        <div
+          class="block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 min-w-full text-center sm:text-start">
+          <h5
+            class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+            Programming Skills
+          </h5>
+          <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200 ">
+            I have good knowlege of <br> 1. HTML <br> 2.CSS <br> 3.JavaScript <br> 4.PHP <br> 5.C <br> 6.C++ <br> 7.MySql <br> 8.Python <br>9.BootStrap <br> 10.tailwind
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>HTML</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 95%">
+            95%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>CSS</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 90%">
+            90%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>JavaScript</span>
+          <div
+            class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 70%">
+            70%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>PHP</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 70%">
+            70%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>C</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 80%">
+            80%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>C++</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 60%">
+            60%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>Mysql</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 80%">
+            80%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>Python</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 50%">
+            50%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>BootStrap</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 80%">
+            80%
+          </div>
+        </div>
+       <div class="min-w-full bg-white dark:bg-neutral-600 my-5">
+          <span>Tailwind</span>
+          <div
+             class="bg-black p-0.5 text-center text-xs font-medium leading-none text-white"
+            style="width: 80%">
+            80%
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+  <div class="mt-6 border-y-4 border-black" id="project">
+    <h5 class="mb-2  text-center font-bold text-neutral-800 dark:text-neutral-50" style="font-size:2.5rem;">
+      PROJECTS
+     </h5>
+     <div  class="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div class="flex justify-center my-5">
+        <div
+          class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="" />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              Elecronic Hub Webpage
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <div class="flex justify-center space-x-2">
+              <button
+                type="button"
+                class="inline-block rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-black hover:border-2 border-black">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center my-5">
+        <div
+          class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="" />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              My Food Home Website
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <div class="flex justify-center space-x-2">
+              <button
+                type="button"
+                class="inline-block rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-black hover:border-2 border-black">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center my-5">
+        <div
+          class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="" />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              Instagram clone in Android Studio
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <div class="flex justify-center space-x-2">
+              <button
+                type="button"
+                class="inline-block rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-black hover:border-2 border-black">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center my-5">
+        <div
+          class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="" />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              Multiplicative Inverse Calculator Website
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <div class="flex justify-center space-x-2">
+              <button
+                type="button"
+                class="inline-block rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-black hover:border-2 border-black">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center my-5">
+        <div
+          class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="" />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              Notes Management Website
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <div class="flex justify-center space-x-2">
+              <button
+                type="button"
+                class="inline-block rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-black hover:border-2 border-black">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center my-5">
+        <div
+          class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="" />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              News Webpage
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <div class="flex justify-center space-x-2">
+              <button
+                type="button"
+                class="inline-block rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-black hover:border-2 border-black">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center my-5">
+        <div
+          class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="" />
+          </a>
+          <div class="p-6">
+            <h5
+              class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              Health Care card website
+            </h5>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <div class="flex justify-center space-x-2">
+              <button
+                type="button"
+                class="inline-block rounded bg-black px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-white hover:text-black hover:border-2 border-black">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+    <div class="mt-6 border-y-4 border-black" id="internship">
+      <h5 class="mb-2  text-center font-bold text-neutral-800 dark:text-neutral-50" style="font-size:2.5rem;">
+        INTERNSHIPS
+       </h5>
+       <div  class="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        <div class="flex justify-center my-5">
+          <div
+            class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+            <a href="#!">
+              <img
+                class="rounded-t-lg"
+                src="https://marketplace.canva.com/EAE7srfpYAo/1/0/1600w/canva-brown-decorative-certificate-of-completion-YAwShCEKfVg.jpg"
+                alt="" />
+            </a>
+            <div class="p-6">
+              <h5
+                class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                Web Development Intern at LetsGrowMore
+              </h5>
+              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center my-5">
+          <div
+            class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+            <a href="#!">
+              <img
+                class="rounded-t-lg"
+                src="https://marketplace.canva.com/EAE7srfpYAo/1/0/1600w/canva-brown-decorative-certificate-of-completion-YAwShCEKfVg.jpg"
+                alt="" />
+            </a>
+            <div class="p-6">
+              <h5
+                class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                PHP Developer intern At Orena solutions
+              </h5>
+              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center my-5">
+          <div
+            class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+            <a href="#!">
+              <img
+                class="rounded-t-lg"
+                src="https://marketplace.canva.com/EAE7srfpYAo/1/0/1600w/canva-brown-decorative-certificate-of-completion-YAwShCEKfVg.jpg"
+                alt="" />
+            </a>
+            <div class="p-6">
+              <h5
+                class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                Software Engineer Trainee at Radixweb
+              </h5>
+              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="mt-6 border-y-4 border-black" id="hire">
+        <h5 class="mb-2  text-center font-bold text-neutral-800 dark:text-neutral-50" style="font-size:2.5rem;">
+          HIRE ME !!!
+         </h5>
+         <div class="flex justify-center">
+          <div
+          class="block max-w-md rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700">
+          <form>
+            <div class="relative mb-6" data-te-input-wrapper-init>
+              <input
+                type="text"
+                class="peer block min-h-[auto] w-full rounded border-2 border-gray-500 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleInput7"
+                placeholder="Name" />
+              <label
+                for="exampleInput7"
+                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
+                >Name 
+              </label>
+            </div>
+            <div class="relative mb-6" data-te-input-wrapper-init>
+              <input
+                type="email"
+                class="peer block min-h-[auto] w-full rounded border-2 border-gray-500 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleInput8"
+                placeholder="Email address" />
+              <label
+                for="exampleInput8"
+                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
+                >Email address
+              </label>
+            </div>
+            <div class="relative mb-6" data-te-input-wrapper-init>
+              <input
+                type="text"
+                class="peer block min-h-[auto] w-full rounded border-2 border-gray-500 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleInput7"
+                placeholder="Name" />
+              <label
+                for="exampleInput7"
+                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
+                >Project Name 
+              </label>
+            </div>
+            <div class="relative mb-6" data-te-input-wrapper-init>
+              <textarea
+                class="peer block min-h-[auto] w-full rounded border-2 border-gray-500 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleFormControlTextarea13"
+                rows="3"
+                placeholder="Message"></textarea>
+              <label
+                for="exampleFormControlTextarea13"
+                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
+                >Project Details
+              </label>
+            </div>
+            <div
+              class="mb-6 flex min-h-[1.5rem] items-center justify-center pl-[1.5rem]">
+              <input
+                class="mr-[6px] h-[1.125rem] w-[1.125rem] appearance-none rounded-[0.25rem] border-[0.125rem] border-solid border-[rgba(0,0,0,0.25)] bg-white outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0 before:shadow-[0px_0px_0px_13px_transparent] before:content-[''] checked:border-black checked:bg-black checked:before:opacity-[0.16] checked:after:absolute checked:after:ml-[0.25rem] checked:after:-mt-px checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-[0.125rem] checked:after:border-t-0 checked:after:border-l-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] hover:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:shadow-none focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:bg-white focus:after:content-[''] checked:focus:border-black checked:focus:bg-black checked:focus:before:scale-100 checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] checked:focus:after:ml-[0.25rem] checked:focus:after:-mt-px checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-[0.125rem] checked:focus:after:border-t-0 checked:focus:after:border-l-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent"
+                type="checkbox"
+                value=""
+                id="exampleCheck10" />
+              <label
+                class="inline-block pl-[0.15rem] hover:cursor-pointer"
+                for="exampleCheck10">
+                Send me a copy of this message
+              </label>
+            </div>
+            <button
+              type="submit"
+              class="w-full rounded bg-black px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-white hover:text-black hover:shadow-lg focus:bg-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-white active:shadow-lg"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              Send
+            </button>
+            
+          </form>
+        </div>
+         </div>
+        
+      </div>
+      <footer class="bg-neutral-900 text-center text-white">
+        <div class="container px-6 pt-6">
+          <div class="mb-6 flex justify-center  md:pl-40 lg:pl-40">
+            <a
+              href="#!"
+              type="button"
+              class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto h-full w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+              </svg>
+            </a>
+      
+            <a
+              href="#!"
+              type="button"
+              class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto h-full w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+              </svg>
+            </a>
+      
+            <a
+              href="#!"
+              type="button"
+              class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto h-full w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+      
+            <a
+              href="#!"
+              type="button"
+              class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto h-full w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+      
+            <a
+              href="#!"
+              type="button"
+              class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto h-full w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+              </svg>
+            </a>
+      
+            <a
+              href="#!"
+              type="button"
+              class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto h-full w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      
+        <div
+          class="p-4 text-center"
+          style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2023 Copyright:
+          <a class="text-whitehite" href="https://tailwind-elements.com/"
+            >GOVIND JHA</a
+          >
+        </div>
+      </footer>
+
+</body>
+</html>
